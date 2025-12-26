@@ -3,4 +3,4 @@ paper-datasets
 raw_datasets*
 *.log
 *.zip
-transformer_model/roberta-large
+transformer_model
