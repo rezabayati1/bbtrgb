@@ -842,8 +842,7 @@ class LMForwardAPI:
                         mask_pos=train_data['mask_pos'],
                     )
                 logits = outputs['logits']
-                print('sssssssssssssssssssssssssssssssssssssss')
-                print(outputs)
+                
                 if random_proj == 'normal' and len(self.intermediate_stats) == 1:
                     # if is the first forward pass, record the range of hidden states of each layer
                     print('Calculating std for random projections...')
